@@ -8,10 +8,16 @@ import java.time.LocalDateTime;
 public class HealthCheckRecord {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
     private Long id;
 
+    @Column(name = "check_time", nullable = false)
     private LocalDateTime checkTime;
+
+    @Column(name = "status", nullable = false)
     private String status;
+
+    @Column(name = "details")
     private String details;
 
     // Getters and Setters
