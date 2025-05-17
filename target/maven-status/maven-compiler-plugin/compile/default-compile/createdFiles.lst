@@ -1,7 +1,0 @@
-com/example/healthmonitor/config/SQLiteIdentityColumnSupport.class
-com/example/healthmonitor/HealthMonitorApplication.class
-com/example/healthmonitor/service/HealthCheckService.class
-com/example/healthmonitor/model/HealthCheckRecord.class
-com/example/healthmonitor/config/SQLiteDialect.class
-com/example/healthmonitor/repository/HealthCheckRepository.class
-com/example/healthmonitor/controller/HealthCheckController.class

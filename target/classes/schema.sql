@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXISTS health_checks (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    check_time TIMESTAMP NOT NULL,
-    status VARCHAR(10) NOT NULL,
-    details TEXT
-); 
